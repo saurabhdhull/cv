@@ -5,20 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saurabh Persional site</title>
+    <style>
+      body {
+        background-color: rgb(174, 245, 253);
+        margin-left: 5%;
+      }
+      hr {
+        background-color: azure;
+        border-color: rgb(253, 252, 252);
+        height: 1px;
+        width: 90%;
+      }
+      h1 {
+        color: rgb(2, 80, 54);
+        font-family: cursive;
+      }
+      h3,
+      h2 {
+        padding-left: 5%;
+        color: rgb(2, 80, 54);
+        font-family: cursive;
+      }
+      ol,ul,form,table{
+        margin-left: 5%;
+      }
+    </style>
   </head>
 
   <body>
-    <table cellspacing="15">
+    <table cellspacing="25">
       <tr>
         <td>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1RmIlYmXerT4NB87jDlmAClHvhh9Vhu2qpA&usqp=CAU"
-            alt="Naruto fan"
-            width="200px"
-          />
+          <img src="image.jpg" alt="Naruto fan" width="200px" />
         </td>
         <td>
-          <h1><u>Saurabh Dhull</u></h1>
+          <h1>Saurabh Dhull</h1>
           <p>I am a student and i love Coffee</p>
           <p>I like to learn new things</p>
         </td>
@@ -29,6 +50,7 @@
     <ol>
       <li>10th pass</li>
       <li>12th pass</li>
+      <li>Pursuing Bca</li>
     </ol>
     <hr />
     <h3>Hobbies</h3>
@@ -42,7 +64,13 @@
     </ul>
     <hr />
     <h3>Work experience</h3>
-    <table border="1px">
+    <table
+      border="1px"
+      bordercolor="white"
+      cellspacing="0"
+      cellpadding="6"
+      padding-left="5%;"
+    >
       <thead>
         <th>Date</th>
         <th>Work</th>
@@ -58,6 +86,7 @@
         </tr>
       </tbody>
     </table>
+    <br />
     <hr />
     <h3>My Skills</h3>
     <table cellspacing="10">
@@ -75,26 +104,24 @@
       </tr>
     </table>
     <hr />
-    <h2>Forms</h2>
-    <form action="">
-      <label for="">Name:</label><br />
-      <input type="text" /><br />
+    <h2>Make your account</h2>
+    <form>
+      <label>Name:</label><br />
+      <input type="text" /><br /><br>
       <label>Gmail:</label><br />
-      <input type="gmail" name="" id="" /><br />
-      <label for="">Tell something about yourself:</label><br />
-      <textarea name="" id="" cols="20" rows="5"></textarea><br />
-      <label for="">Date of birth:</label><br />
-      <input type="month" /><br />
-      <label for="">Do you want to sign in:</label>
-      <input type="checkbox" name="" id="" /><br /><br />
-      <label for="">Password</label><br />
-      <input type="password" /><br />
-      <input type="file" name="" id="" /><br />
-      <label for="">Enter your bonus:</label><br />
-      <input type="number" name="" id="" /><br />
-      <label for="">Search:</label><br />
-      <input type="search" name="" id="" /><br />
+      <input type="gmail" /><br /><br>
+      <label>Tell something about yourself:</label><br />
+      <textarea cols="35" rows="5"></textarea><br /><br>
+      <label>Password</label><br />
+      <input type="password" /><br /><br>
+      <label>Profile picture:</label><br>
+      <input type="file" /><br /><br>
+      
+      <label>Have you completed your 12th:</label>
+      <input type="checkbox" /><br /><br />
+      
       <input type="submit" />
+      <input type="reset" value="Reset">
     </form>
   </body>
 </html>
